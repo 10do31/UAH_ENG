@@ -1,0 +1,41 @@
+
+**** Build of configuration Debug for project Otieno_Lab02_SP22_DemoCode ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab02_D1.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small -Ooff --use_hw_mpy=F5 --include_path="C:/ti/ccs1110/ccs/ccs_base/msp430/include" --include_path="C:/Users/d_oti/Desktop/CPE325/Otieno_Lab02_SP22_DemoCode" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=full --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --asm_listing --preproc_with_compile --preproc_dependency="Lab02_D1.d_raw"  "../Lab02_D1.c"
+"../Lab02_D1.c", line 25: warning #145-D: a value of type "float *" cannot be used to initialize an entity of type "unsigned long *"
+"../Lab02_D1.c", line 28: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 29: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 30: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 31: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 32: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 33: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 34: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 35: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 36: remark #1532-D: (ULP 5.3) Detected printf() operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Lab02_D1.c", line 17: remark #1535-D: (ULP 8.1) variable "int_1" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Lab02_D1.c", line 18: remark #1535-D: (ULP 8.1) variable "int_2" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Lab02_D1.c", line 19: remark #1535-D: (ULP 8.1) variable "u_int_1" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Lab02_D1.c", line 20: remark #1535-D: (ULP 8.1) variable "long_1" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Lab02_D1.c", line 21: remark #1535-D: (ULP 8.1) variable "long_2" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Lab02_D1.c", line 22: remark #1535-D: (ULP 8.1) variable "char_1" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Lab02_D1.c", line 34 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../Lab02_D1.c"
+ 
+Building target: "Otieno_Lab02_SP22_DemoCode.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small -Ooff --use_hw_mpy=F5 --advice:power="all" --define=__MSP430F5529__ -g --printf_support=full --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --asm_listing -z -m"Otieno_Lab02_SP22_DemoCode.map" --heap_size=300 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1110/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1110/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Otieno_Lab02_SP22_DemoCode_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Otieno_Lab02_SP22_DemoCode.out" "./Lab02_D1.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+warning #10204-D: could not resolve index library "libmath.a" to a compatible library
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Otieno_Lab02_SP22_DemoCode.out"
+ 
+
+**** Build Finished ****

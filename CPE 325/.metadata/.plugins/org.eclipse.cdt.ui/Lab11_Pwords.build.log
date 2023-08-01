@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug__GNU for project Lab11_Pwords ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "Lab11_Pwords.out"
+Invoking: GNU Linker
+"C:/ti/ccs1110/ccs/tools/compiler/msp430-gcc-9.3.0.31_win64/bin/msp430-elf-gcc-9.3.0.exe" -mhwmult=16bit -Og -g -gdwarf-3 -gstrict-dwarf -Wall -mcode-region=none -mlarge -Wl,-Map,"Lab11_Pwords.map" -Wl,--gc-sections -L"C:/ti/ccs1110/ccs/ccs_base/msp430/include_gcc" -mmcu=msp430fg4618 -o"Lab11_Pwords.out" "./main.o" -T"../lnk_msp430fg4618.cmd" -T"../msp430fg4618.ld"  -Wl,--start-group -lgcc -lc -Wl,--end-group 
+makefile:145: recipe for target 'Lab11_Pwords.out' failed
+c:/ti/ccs1110/ccs/tools/compiler/msp430-gcc-9.3.0.31_win64/bin/../lib/gcc/msp430-elf/9.3.0/../../../../msp430-elf/bin/ld.exe:../lnk_msp430fg4618.cmd:56: syntax error
+collect2.exe: error: ld returned 1 exit status
+gmake[1]: *** [Lab11_Pwords.out] Error 1
+gmake: *** [all] Error 2
+makefile:141: recipe for target 'all' failed
+
+**** Build Finished ****

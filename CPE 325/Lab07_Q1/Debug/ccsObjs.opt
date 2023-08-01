@@ -1,0 +1,1 @@
+"./Q1_Brights.obj" "../lnk_msp430fg4618.cmd" -llibc.a 

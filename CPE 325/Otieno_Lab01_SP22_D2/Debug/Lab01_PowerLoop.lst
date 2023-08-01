@@ -1,0 +1,427 @@
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    1
+
+       1            ;******************************************************************************
+       2            ;* MSP430 G3 C/C++ Codegen                                              PC v21.6.0.LTS *
+       3            ;* Date/Time created: Fri Jan 14 20:03:46 2022                                *
+       4            ;******************************************************************************
+       5                    .compiler_opts --abi=eabi --diag_wrap=off --hll_source=on --mem_model:code=small --mem_model:d
+       6            
+       7            $C$DW$CU        .dwtag  DW_TAG_compile_unit
+       8                    .dwattr $C$DW$CU, DW_AT_name("../Lab01_PowerLoop.c")
+       9                    .dwattr $C$DW$CU, DW_AT_producer("TI MSP430 G3 C/C++ Codegen PC v21.6.0.LTS Copyright (c) 2003
+      10                    .dwattr $C$DW$CU, DW_AT_TI_version(0x01)
+      11                    .dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\d_oti\Desktop\CPE325\Otieno_Lab01_SP22\Debug")
+      12            ;       C:\ti\ccs1110\ccs\tools\compiler\ti-cgt-msp430_21.6.0.LTS\bin\acpia430.exe -@C:\\Users\\d_oti\
+      13 000000               .sect   ".text:exponential"
+      14                    .clink
+      15                    .global exponential
+      16            
+      17            $C$DW$1 .dwtag  DW_TAG_subprogram
+      18                    .dwattr $C$DW$1, DW_AT_name("exponential")
+      19                    .dwattr $C$DW$1, DW_AT_low_pc(exponential)
+      20                    .dwattr $C$DW$1, DW_AT_high_pc(0x00)
+      21                    .dwattr $C$DW$1, DW_AT_TI_symbol_name("exponential")
+      22                    .dwattr $C$DW$1, DW_AT_external
+      23                    .dwattr $C$DW$1, DW_AT_type(*$C$DW$T$12)
+      24                    .dwattr $C$DW$1, DW_AT_TI_begin_file("../Lab01_PowerLoop.c")
+      25                    .dwattr $C$DW$1, DW_AT_TI_begin_line(0x0d)
+      26                    .dwattr $C$DW$1, DW_AT_TI_begin_column(0x0a)
+      27                    .dwattr $C$DW$1, DW_AT_decl_file("../Lab01_PowerLoop.c")
+      28                    .dwattr $C$DW$1, DW_AT_decl_line(0x0d)
+      29                    .dwattr $C$DW$1, DW_AT_decl_column(0x0a)
+      30                    .dwattr $C$DW$1, DW_AT_TI_max_frame_size(0x0e)
+      31                    .dwpsn  file "../Lab01_PowerLoop.c",line 14,column 1,is_stmt,address exponential,isa 0
+      32            
+      33                    .dwfde $C$DW$CIE, exponential
+      34            $C$DW$2 .dwtag  DW_TAG_formal_parameter
+      35                    .dwattr $C$DW$2, DW_AT_name("base")
+      36                    .dwattr $C$DW$2, DW_AT_TI_symbol_name("base")
+      37                    .dwattr $C$DW$2, DW_AT_type(*$C$DW$T$10)
+      38                    .dwattr $C$DW$2, DW_AT_location[DW_OP_reg12]
+      39            
+      40            $C$DW$3 .dwtag  DW_TAG_formal_parameter
+      41                    .dwattr $C$DW$3, DW_AT_name("power")
+      42                    .dwattr $C$DW$3, DW_AT_TI_symbol_name("power")
+      43                    .dwattr $C$DW$3, DW_AT_type(*$C$DW$T$10)
+      44                    .dwattr $C$DW$3, DW_AT_location[DW_OP_reg13]
+      45            
+      46            
+      47            ;*****************************************************************************
+      48            ;* FUNCTION NAME: exponential                                                *
+      49            ;*                                                                           *
+      50            ;*   Regs Modified     : SP,SR,r11,r12,r13,r14,r15                           *
+      51            ;*   Regs Used         : SP,SR,r11,r12,r13,r14,r15                           *
+      52            ;*   Local Frame Size  : 0 Args + 12 Auto + 0 Save = 12 byte                 *
+      53            ;*****************************************************************************
+      54 000000       exponential:
+      55            ;* --------------------------------------------------------------------------*
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    2
+
+      56                    .dwcfi  cfa_offset, 2
+      57                    .dwcfi  save_reg_to_mem, 16, -2
+      58 000000 8031          SUB.W     #12,SP                ; [] 
+         000002 000C 
+      59                    .dwcfi  cfa_offset, 14
+      60            $C$DW$4 .dwtag  DW_TAG_variable
+      61                    .dwattr $C$DW$4, DW_AT_name("answer")
+      62                    .dwattr $C$DW$4, DW_AT_TI_symbol_name("answer")
+      63                    .dwattr $C$DW$4, DW_AT_type(*$C$DW$T$12)
+      64                    .dwattr $C$DW$4, DW_AT_location[DW_OP_breg1 0]
+      65            
+      66            $C$DW$5 .dwtag  DW_TAG_variable
+      67                    .dwattr $C$DW$5, DW_AT_name("i")
+      68                    .dwattr $C$DW$5, DW_AT_TI_symbol_name("i")
+      69                    .dwattr $C$DW$5, DW_AT_type(*$C$DW$T$12)
+      70                    .dwattr $C$DW$5, DW_AT_location[DW_OP_breg1 4]
+      71            
+      72            $C$DW$6 .dwtag  DW_TAG_variable
+      73                    .dwattr $C$DW$6, DW_AT_name("base")
+      74                    .dwattr $C$DW$6, DW_AT_TI_symbol_name("base")
+      75                    .dwattr $C$DW$6, DW_AT_type(*$C$DW$T$10)
+      76                    .dwattr $C$DW$6, DW_AT_location[DW_OP_breg1 8]
+      77            
+      78            $C$DW$7 .dwtag  DW_TAG_variable
+      79                    .dwattr $C$DW$7, DW_AT_name("power")
+      80                    .dwattr $C$DW$7, DW_AT_TI_symbol_name("power")
+      81                    .dwattr $C$DW$7, DW_AT_type(*$C$DW$T$10)
+      82                    .dwattr $C$DW$7, DW_AT_location[DW_OP_breg1 10]
+      83            
+      84 000004 4D81          MOV.W     r13,10(SP)            ; [] |14| 
+         000006 000A 
+      85 000008 4C81          MOV.W     r12,8(SP)             ; [] |14| 
+         00000a 0008 
+      86                    .dwpsn  file "../Lab01_PowerLoop.c",line 15,column 21,is_stmt,isa 0
+      87 00000c 4391          MOV.W     #1,0(SP)              ; [] |15| 
+         00000e 0000 
+      88 000010 4381          MOV.W     #0,2(SP)              ; [] |15| 
+         000012 0002 
+      89                    .dwpsn  file "../Lab01_PowerLoop.c",line 17,column 9,is_stmt,isa 0
+      90 000014 4391          MOV.W     #1,4(SP)              ; [] |17| 
+         000016 0004 
+      91 000018 4381          MOV.W     #0,6(SP)              ; [] |17| 
+         00001a 0006 
+      92                    .dwpsn  file "../Lab01_PowerLoop.c",line 17,column 16,is_stmt,isa 0
+      93 00001c B03D          BIT.W     #32768,r13            ; [] |17| 
+         00001e 8000 
+      94 000020 7F0F          SUBC.W    r15,r15               ; [] |17| 
+      95 000022 E33F          INV.W     r15                   ; [] |17| 
+      96 000024 911F          CMP.W     6(SP),r15             ; [] |17| 
+         000026 0006 
+      97 000028 3824          JL        $C$L2                 ; [] |17| 
+      98                                                      ; [] |17| 
+      99            ;* --------------------------------------------------------------------------*
+     100 00002a 2003          JNE       $C$L1                 ; [] |17| 
+     101                                                      ; [] |17| 
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    3
+
+     102            ;* --------------------------------------------------------------------------*
+     103 00002c 911D          CMP.W     4(SP),r13             ; [] |17| 
+         00002e 0004 
+     104 000030 2820          JLO       $C$L2                 ; [] |17| 
+     105                                                      ; [] |17| 
+     106            ;* --------------------------------------------------------------------------*
+     107            ;*   BEGIN LOOP $C$L1
+     108            ;*
+     109            ;*   Loop source line                : 17
+     110            ;*   Loop closing brace source line  : 21
+     111            ;*   Known Minimum Trip Count        : 1
+     112            ;*   Known Maximum Trip Count        : 4294967295
+     113            ;*   Known Max Trip Count Factor     : 1
+     114            ;* --------------------------------------------------------------------------*
+     115 000032       $C$L1:    
+     116                    .dwpsn  file "../Lab01_PowerLoop.c",line 19,column 9,is_stmt,isa 0
+     117 000032 411E          MOV.W     8(SP),r14             ; [] |19| 
+         000034 0008 
+     118 000036 B03E          BIT.W     #32768,r14            ; [] |19| 
+         000038 8000 
+     119 00003a 7F0F          SUBC.W    r15,r15               ; [] |19| 
+     120 00003c E33F          INV.W     r15                   ; [] |19| 
+     121 00003e 412C          MOV.W     0(SP),r12             ; [] |19| 
+     122 000040 411D          MOV.W     2(SP),r13             ; [] |19| 
+         000042 0002 
+     123            $C$DW$8 .dwtag  DW_TAG_TI_branch
+     124                    .dwattr $C$DW$8, DW_AT_low_pc(0x00)
+     125                    .dwattr $C$DW$8, DW_AT_name("__mspabi_mpyl")
+     126                    .dwattr $C$DW$8, DW_AT_TI_call
+     127            
+     128 000044 12B0          CALL      #__mspabi_mpyl        ; [] |19| 
+         000046 0000!
+     129                                                      ; [] |19| 
+     130 000048 4C81          MOV.W     r12,0(SP)             ; [] |19| 
+         00004a 0000 
+     131 00004c 4D81          MOV.W     r13,2(SP)             ; [] |19| 
+         00004e 0002 
+     132                    .dwpsn  file "../Lab01_PowerLoop.c",line 17,column 26,is_stmt,isa 0
+     133 000050 5391          ADD.W     #1,4(SP)              ; [] |17| 
+         000052 0004 
+     134 000054 6381          ADDC.W    #0,6(SP)              ; [] |17| 
+         000056 0006 
+     135                    .dwpsn  file "../Lab01_PowerLoop.c",line 17,column 16,is_stmt,isa 0
+     136 000058 411E          MOV.W     10(SP),r14            ; [] |17| 
+         00005a 000A 
+     137 00005c B03E          BIT.W     #32768,r14            ; [] |17| 
+         00005e 8000 
+     138 000060 7F0F          SUBC.W    r15,r15               ; [] |17| 
+     139 000062 E33F          INV.W     r15                   ; [] |17| 
+     140 000064 911F          CMP.W     6(SP),r15             ; [] |17| 
+         000066 0006 
+     141 000068 3804          JL        $C$L2                 ; [] |17| 
+     142                                                      ; [] |17| 
+     143            ;* --------------------------------------------------------------------------*
+     144 00006a 23E3          JNE       $C$L1                 ; [] |17| 
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    4
+
+     145                                                      ; [] |17| 
+     146            ;* --------------------------------------------------------------------------*
+     147 00006c 911E          CMP.W     4(SP),r14             ; [] |17| 
+         00006e 0004 
+     148 000070 2FE0          JHS       $C$L1                 ; [] |17| 
+     149                                                      ; [] |17| 
+     150            ;* --------------------------------------------------------------------------*
+     151 000072       $C$L2:    
+     152                    .dwpsn  file "../Lab01_PowerLoop.c",line 23,column 5,is_stmt,isa 0
+     153 000072 412C          MOV.W     0(SP),r12             ; [] |23| 
+     154 000074 411D          MOV.W     2(SP),r13             ; [] |23| 
+         000076 0002 
+     155                    .dwpsn  file "../Lab01_PowerLoop.c",line 24,column 1,is_stmt,isa 0
+     156 000078 5031          ADD.W     #12,SP                ; [] 
+         00007a 000C 
+     157                    .dwcfi  cfa_offset, 2
+     158            $C$DW$9 .dwtag  DW_TAG_TI_branch
+     159                    .dwattr $C$DW$9, DW_AT_low_pc(0x00)
+     160                    .dwattr $C$DW$9, DW_AT_TI_return
+     161            
+     162 00007c 4130          RET       ; [] 
+     163                    ; [] 
+     164                    .dwattr $C$DW$1, DW_AT_TI_end_file("../Lab01_PowerLoop.c")
+     165                    .dwattr $C$DW$1, DW_AT_TI_end_line(0x18)
+     166                    .dwattr $C$DW$1, DW_AT_TI_end_column(0x01)
+     167                    .dwendentry
+     168                    .dwendtag $C$DW$1
+     169            
+     170            ;*****************************************************************************
+     171            ;* UNDEFINED EXTERNAL REFERENCES                                             *
+     172            ;*****************************************************************************
+     173                    .global __mspabi_mpyl
+     174            
+     175            ;******************************************************************************
+     176            ;* BUILD ATTRIBUTES                                                           *
+     177            ;******************************************************************************
+     178                    .battr "TI", Tag_File, 1, Tag_LPM_INFO(1)
+     179                    .battr "TI", Tag_File, 1, Tag_PORTS_INIT_INFO("012345678901ABCDEFGHIJ0000000000000000000000000
+     180                    .battr "TI", Tag_File, 1, Tag_LEA_INFO(1)
+     181                    .battr "TI", Tag_File, 1, Tag_HW_MPY32_INFO(1)
+     182                    .battr "TI", Tag_File, 1, Tag_HW_MPY_ISR_INFO(1)
+     183                    .battr "TI", Tag_File, 1, Tag_HW_MPY_INLINE_INFO(1)
+     184                    .battr "mspabi", Tag_File, 1, Tag_enum_size(3)
+     185            
+     186            ;******************************************************************************
+     187            ;* TYPE INFORMATION                                                           *
+     188            ;******************************************************************************
+     189            $C$DW$T$2       .dwtag  DW_TAG_unspecified_type
+     190                    .dwattr $C$DW$T$2, DW_AT_name("void")
+     191            
+     192            $C$DW$T$4       .dwtag  DW_TAG_base_type
+     193                    .dwattr $C$DW$T$4, DW_AT_encoding(DW_ATE_boolean)
+     194                    .dwattr $C$DW$T$4, DW_AT_name("bool")
+     195                    .dwattr $C$DW$T$4, DW_AT_byte_size(0x01)
+     196            
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    5
+
+     197            $C$DW$T$5       .dwtag  DW_TAG_base_type
+     198                    .dwattr $C$DW$T$5, DW_AT_encoding(DW_ATE_signed_char)
+     199                    .dwattr $C$DW$T$5, DW_AT_name("signed char")
+     200                    .dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
+     201            
+     202            $C$DW$T$6       .dwtag  DW_TAG_base_type
+     203                    .dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
+     204                    .dwattr $C$DW$T$6, DW_AT_name("unsigned char")
+     205                    .dwattr $C$DW$T$6, DW_AT_byte_size(0x01)
+     206            
+     207            $C$DW$T$7       .dwtag  DW_TAG_base_type
+     208                    .dwattr $C$DW$T$7, DW_AT_encoding(DW_ATE_signed_char)
+     209                    .dwattr $C$DW$T$7, DW_AT_name("wchar_t")
+     210                    .dwattr $C$DW$T$7, DW_AT_byte_size(0x02)
+     211            
+     212            $C$DW$T$8       .dwtag  DW_TAG_base_type
+     213                    .dwattr $C$DW$T$8, DW_AT_encoding(DW_ATE_signed)
+     214                    .dwattr $C$DW$T$8, DW_AT_name("short")
+     215                    .dwattr $C$DW$T$8, DW_AT_byte_size(0x02)
+     216            
+     217            $C$DW$T$9       .dwtag  DW_TAG_base_type
+     218                    .dwattr $C$DW$T$9, DW_AT_encoding(DW_ATE_unsigned)
+     219                    .dwattr $C$DW$T$9, DW_AT_name("unsigned short")
+     220                    .dwattr $C$DW$T$9, DW_AT_byte_size(0x02)
+     221            
+     222            $C$DW$T$10      .dwtag  DW_TAG_base_type
+     223                    .dwattr $C$DW$T$10, DW_AT_encoding(DW_ATE_signed)
+     224                    .dwattr $C$DW$T$10, DW_AT_name("int")
+     225                    .dwattr $C$DW$T$10, DW_AT_byte_size(0x02)
+     226            
+     227            $C$DW$T$11      .dwtag  DW_TAG_base_type
+     228                    .dwattr $C$DW$T$11, DW_AT_encoding(DW_ATE_unsigned)
+     229                    .dwattr $C$DW$T$11, DW_AT_name("unsigned int")
+     230                    .dwattr $C$DW$T$11, DW_AT_byte_size(0x02)
+     231            
+     232            $C$DW$T$12      .dwtag  DW_TAG_base_type
+     233                    .dwattr $C$DW$T$12, DW_AT_encoding(DW_ATE_signed)
+     234                    .dwattr $C$DW$T$12, DW_AT_name("long")
+     235                    .dwattr $C$DW$T$12, DW_AT_byte_size(0x04)
+     236            
+     237            $C$DW$T$13      .dwtag  DW_TAG_base_type
+     238                    .dwattr $C$DW$T$13, DW_AT_encoding(DW_ATE_unsigned)
+     239                    .dwattr $C$DW$T$13, DW_AT_name("unsigned long")
+     240                    .dwattr $C$DW$T$13, DW_AT_byte_size(0x04)
+     241            
+     242            $C$DW$T$14      .dwtag  DW_TAG_base_type
+     243                    .dwattr $C$DW$T$14, DW_AT_encoding(DW_ATE_signed)
+     244                    .dwattr $C$DW$T$14, DW_AT_name("long long")
+     245                    .dwattr $C$DW$T$14, DW_AT_byte_size(0x08)
+     246            
+     247            $C$DW$T$15      .dwtag  DW_TAG_base_type
+     248                    .dwattr $C$DW$T$15, DW_AT_encoding(DW_ATE_unsigned)
+     249                    .dwattr $C$DW$T$15, DW_AT_name("unsigned long long")
+     250                    .dwattr $C$DW$T$15, DW_AT_byte_size(0x08)
+     251            
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    6
+
+     252            $C$DW$T$16      .dwtag  DW_TAG_base_type
+     253                    .dwattr $C$DW$T$16, DW_AT_encoding(DW_ATE_float)
+     254                    .dwattr $C$DW$T$16, DW_AT_name("float")
+     255                    .dwattr $C$DW$T$16, DW_AT_byte_size(0x04)
+     256            
+     257            $C$DW$T$17      .dwtag  DW_TAG_base_type
+     258                    .dwattr $C$DW$T$17, DW_AT_encoding(DW_ATE_float)
+     259                    .dwattr $C$DW$T$17, DW_AT_name("double")
+     260                    .dwattr $C$DW$T$17, DW_AT_byte_size(0x08)
+     261            
+     262            $C$DW$T$18      .dwtag  DW_TAG_base_type
+     263                    .dwattr $C$DW$T$18, DW_AT_encoding(DW_ATE_float)
+     264                    .dwattr $C$DW$T$18, DW_AT_name("long double")
+     265                    .dwattr $C$DW$T$18, DW_AT_byte_size(0x08)
+     266            
+     267                    .dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
+     268            
+     269            ;***************************************************************
+     270            ;* DWARF CIE ENTRIES                                           *
+     271            ;***************************************************************
+     272            
+     273            $C$DW$CIE       .dwcie 16
+     274                    .dwcfi  cfa_register, 1
+     275                    .dwcfi  cfa_offset, 0
+     276                    .dwcfi  same_value, 0
+     277                    .dwcfi  same_value, 1
+     278                    .dwcfi  same_value, 3
+     279                    .dwcfi  same_value, 4
+     280                    .dwcfi  same_value, 5
+     281                    .dwcfi  same_value, 6
+     282                    .dwcfi  same_value, 7
+     283                    .dwcfi  same_value, 8
+     284                    .dwcfi  same_value, 9
+     285                    .dwcfi  same_value, 10
+     286                    .dwendentry
+     287            
+     288            ;***************************************************************
+     289            ;* DWARF REGISTER MAP                                          *
+     290            ;***************************************************************
+     291            
+     292            $C$DW$10        .dwtag  DW_TAG_TI_assign_register
+     293                    .dwattr $C$DW$10, DW_AT_name("PC")
+     294                    .dwattr $C$DW$10, DW_AT_location[DW_OP_reg0]
+     295            
+     296            $C$DW$11        .dwtag  DW_TAG_TI_assign_register
+     297                    .dwattr $C$DW$11, DW_AT_name("SP")
+     298                    .dwattr $C$DW$11, DW_AT_location[DW_OP_reg1]
+     299            
+     300            $C$DW$12        .dwtag  DW_TAG_TI_assign_register
+     301                    .dwattr $C$DW$12, DW_AT_name("SR")
+     302                    .dwattr $C$DW$12, DW_AT_location[DW_OP_reg2]
+     303            
+     304            $C$DW$13        .dwtag  DW_TAG_TI_assign_register
+     305                    .dwattr $C$DW$13, DW_AT_name("CG")
+     306                    .dwattr $C$DW$13, DW_AT_location[DW_OP_reg3]
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    7
+
+     307            
+     308            $C$DW$14        .dwtag  DW_TAG_TI_assign_register
+     309                    .dwattr $C$DW$14, DW_AT_name("r4")
+     310                    .dwattr $C$DW$14, DW_AT_location[DW_OP_reg4]
+     311            
+     312            $C$DW$15        .dwtag  DW_TAG_TI_assign_register
+     313                    .dwattr $C$DW$15, DW_AT_name("r5")
+     314                    .dwattr $C$DW$15, DW_AT_location[DW_OP_reg5]
+     315            
+     316            $C$DW$16        .dwtag  DW_TAG_TI_assign_register
+     317                    .dwattr $C$DW$16, DW_AT_name("r6")
+     318                    .dwattr $C$DW$16, DW_AT_location[DW_OP_reg6]
+     319            
+     320            $C$DW$17        .dwtag  DW_TAG_TI_assign_register
+     321                    .dwattr $C$DW$17, DW_AT_name("r7")
+     322                    .dwattr $C$DW$17, DW_AT_location[DW_OP_reg7]
+     323            
+     324            $C$DW$18        .dwtag  DW_TAG_TI_assign_register
+     325                    .dwattr $C$DW$18, DW_AT_name("r8")
+     326                    .dwattr $C$DW$18, DW_AT_location[DW_OP_reg8]
+     327            
+     328            $C$DW$19        .dwtag  DW_TAG_TI_assign_register
+     329                    .dwattr $C$DW$19, DW_AT_name("r9")
+     330                    .dwattr $C$DW$19, DW_AT_location[DW_OP_reg9]
+     331            
+     332            $C$DW$20        .dwtag  DW_TAG_TI_assign_register
+     333                    .dwattr $C$DW$20, DW_AT_name("r10")
+     334                    .dwattr $C$DW$20, DW_AT_location[DW_OP_reg10]
+     335            
+     336            $C$DW$21        .dwtag  DW_TAG_TI_assign_register
+     337                    .dwattr $C$DW$21, DW_AT_name("r11")
+     338                    .dwattr $C$DW$21, DW_AT_location[DW_OP_reg11]
+     339            
+     340            $C$DW$22        .dwtag  DW_TAG_TI_assign_register
+     341                    .dwattr $C$DW$22, DW_AT_name("r12")
+     342                    .dwattr $C$DW$22, DW_AT_location[DW_OP_reg12]
+     343            
+     344            $C$DW$23        .dwtag  DW_TAG_TI_assign_register
+     345                    .dwattr $C$DW$23, DW_AT_name("r13")
+     346                    .dwattr $C$DW$23, DW_AT_location[DW_OP_reg13]
+     347            
+     348            $C$DW$24        .dwtag  DW_TAG_TI_assign_register
+     349                    .dwattr $C$DW$24, DW_AT_name("r14")
+     350                    .dwattr $C$DW$24, DW_AT_location[DW_OP_reg14]
+     351            
+     352            $C$DW$25        .dwtag  DW_TAG_TI_assign_register
+     353                    .dwattr $C$DW$25, DW_AT_name("r15")
+     354                    .dwattr $C$DW$25, DW_AT_location[DW_OP_reg15]
+     355            
+     356            $C$DW$26        .dwtag  DW_TAG_TI_assign_register
+     357                    .dwattr $C$DW$26, DW_AT_name("CIE_RETA")
+     358                    .dwattr $C$DW$26, DW_AT_location[DW_OP_reg16]
+     359            
+     360                    .dwendtag $C$DW$CU
+     361            
+MSP430 Assembler PC v21.6.0 Fri Jan 14 20:03:46 2022
+
+Copyright (c) 2003-2018 Texas Instruments Incorporated
+C:\Users\d_oti\AppData\Local\Temp\{778D04A6-E250-434E-972B-D793EB24623F} PAGE    8
+
+
+No Assembly Errors, No Assembly Warnings

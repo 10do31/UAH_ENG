@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Otieno_Lab02_SP22_DotProduct/main.c&apos; to &apos;Dot_Product.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.c" name="Dot_Product.c" stamp="1642878044652" updateReferences="true"/>
+</session>

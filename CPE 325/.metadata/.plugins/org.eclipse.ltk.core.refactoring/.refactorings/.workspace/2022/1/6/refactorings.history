@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Otieno_Lab03_SP22_LEDs/Led_Lights.c.bak&apos;" deleteContents="false" description="Delete resource &apos;Otieno_Lab03_SP22_LEDs/Led_Lights.c.bak&apos;" element1="/Otieno_Lab03_SP22_LEDs/Led_Lights.c.bak" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1643562504579"/>
+</session>

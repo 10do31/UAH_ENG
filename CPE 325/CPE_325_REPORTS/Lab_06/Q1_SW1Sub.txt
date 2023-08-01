@@ -1,0 +1,33 @@
+;-------------------------------------------------------------------------------
+; MSP430 Assembler Code Template for use with TI Code Composer Studio
+;
+;
+;-------------------------------------------------------------------------------
+            .cdecls C,LIST,"msp430.h"       ; Include device header file
+            
+;-------------------------------------------------------------------------------
+            .def    SW1_sub
+            .text                           ; Assemble into program memory.
+						
+;-------------------------------------------------------------------------------
+; Switch 1 Subroutine
+;-------------------------------------------------------------------------------
+SW1_sub:
+            mov.w 	#6, R14             ; LED 1 toggle counter
+L_S1:   	mov.w 	#16667, R15         ;
+
+SWdelay:  	dec.w 	R15                 ; 167 ms delay
+            nop                         ;
+            nop                         ;
+            nop                         ;
+            nop                         ;
+            nop                         ;
+            nop                         ;
+            nop                         ;
+            jnz 	SWdelay             ;
+			
+            bis.b 	#004h, &P2OUT       ; Turn on LED 1.
+            dec.w 	R14                 ;
+            jnz 	L_S1             	;
+
+            ret                         ; return from Subroutine. 

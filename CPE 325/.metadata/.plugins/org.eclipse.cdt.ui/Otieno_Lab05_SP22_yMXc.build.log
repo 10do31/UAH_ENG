@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project Otieno_Lab05_SP22_yMXc ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../HW_linear.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small -Ooff --use_hw_mpy=F5 --include_path="C:/ti/ccs1110/ccs/ccs_base/msp430/include" --include_path="C:/Users/d_oti/Desktop/CPE325/Otieno_Lab05_SP22_yMXc" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HW_linear.d_raw"  "../HW_linear.asm"
+Finished building: "../HW_linear.asm"
+ 
+Building file: "../YisMXC.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small -Ooff --use_hw_mpy=F5 --include_path="C:/ti/ccs1110/ccs/ccs_base/msp430/include" --include_path="C:/Users/d_oti/Desktop/CPE325/Otieno_Lab05_SP22_yMXc" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="YisMXC.d_raw"  "../YisMXC.asm"
+No Assembly Errors, 1 Assembly Warning
+"../YisMXC.asm", WARNING! at line 52: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp		$
+ 
+Finished building: "../YisMXC.asm"
+ 
+Building file: "../SW_linear.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small -Ooff --use_hw_mpy=F5 --include_path="C:/ti/ccs1110/ccs/ccs_base/msp430/include" --include_path="C:/Users/d_oti/Desktop/CPE325/Otieno_Lab05_SP22_yMXc" --include_path="C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="SW_linear.d_raw"  "../SW_linear.asm"
+Finished building: "../SW_linear.asm"
+ 
+Building target: "Otieno_Lab05_SP22_yMXc.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small -Ooff --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Otieno_Lab05_SP22_yMXc.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1110/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1110/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Otieno_Lab05_SP22_yMXc_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Otieno_Lab05_SP22_yMXc.out" "./HW_linear.obj" "./SW_linear.obj" "./YisMXC.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+warning #10204-D: could not resolve index library "libmath.a" to a compatible library
+Finished building target: "Otieno_Lab05_SP22_yMXc.out"
+ 
+
+**** Build Finished ****

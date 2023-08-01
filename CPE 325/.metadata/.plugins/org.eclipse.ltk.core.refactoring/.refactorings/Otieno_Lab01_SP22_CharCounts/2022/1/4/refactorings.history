@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab01_CharCounts/main.c&apos; to &apos;Lab01_CharCounts.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.c" name="Lab01_CharCounts.c" stamp="1642292670077" updateReferences="true"/>
+</session>

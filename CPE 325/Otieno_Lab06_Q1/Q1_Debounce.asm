@@ -1,0 +1,29 @@
+;-------------------------------------------------------------------------------
+; MSP430 Assembler Code Template for use with TI Code Composer Studio
+;
+;
+;-------------------------------------------------------------------------------
+            .cdecls C,LIST,"msp430.h"       ; Include device header file
+            
+;-------------------------------------------------------------------------------
+            .def	Debounce
+
+            .text                           ; Assemble into program memory.
+						
+Debounce:	mov.w 	#2000, R15            	; Set to (2000 * 10cc).
+
+Db20ms:		dec.w 	R15                 	; Debounce frequency = 0.5Hz = 2000ms = 2s (1s on/1s off).
+            nop                         	;
+            nop                         	;
+            nop                         	;
+            nop                         	;
+            nop                         	;
+            nop                         	;
+            nop                         	;
+            jnz 	Db20ms                	;;
+
+
+
+			ret
+
+			.end

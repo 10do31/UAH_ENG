@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------------------
+ * File:        Blink.c
+ * Function:    Turning on LED1
+ * Description: This C program turns on LED1 by writing 1 (P1.0 = 1).
+ * Clocks:              MSP-EXP430F5529LP
+ *                    --------------------
+ *                 /|\|                  |
+ *                  | |                  |
+ *                  --|RST               |
+ *                    |              P1.0|-->LED1(RED)
+ *                    |                  |
+ * ---------------------------------------------------------------------------*/
+
+
+#include <msp430.h> 
+#define REDLed 0x01             // Mask for BIT0 = 0000_0001b.
+
+int main(void)
+{
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer.
+	P1DIR |= REDLed;            // Set P1.0 to output direction.
+	P1OUT |= REDLed;            // Set P1OUT to 0000_0001b (LED1 is ON).
+	
+	while(1);
+}
