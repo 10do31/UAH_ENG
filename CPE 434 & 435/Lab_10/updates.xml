@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <aswmicroupdates version="3">
+  <condition version_c="(+=)3070">
+    <notify guid_c="10"/>
+  </condition>
+  <condition version_c="(=)3006">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_1_r1_2.cab" mversion="2"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_1_r1_4.cab" mversion="4"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_1_r1_5.cab" mversion="5"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_1_r1_6.cab" mversion="6"/>
+  </condition>
+  <condition version_c="(=)3008">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_7.cab" mversion="7"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_9.cab" mversion="9"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_10.cab" mversion="10"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_11.cab" mversion="11"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_12.cab" mversion="12"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_13.cab" mversion="13"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_14.cab" mversion="14"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_15.cab" mversion="15"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_2_r2_19.cab" mversion="19"/>
+  </condition>
+  <condition version_c="(=)3011">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_3_r3_17.cab" mversion="17"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_3_r3_18.cab" mversion="18"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_3_r3_19.cab" mversion="19"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_3_r3_21.cab" mversion="21"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_3_r3_22.cab" mversion="22"/>
+  </condition>
+  <condition version_c="(=)3014">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_4_r4_23.cab" mversion="23"/>
+  </condition>
+  <condition version_c="(=)3021">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_25.cab" mversion="25"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_26.cab" mversion="26"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_27.cab" mversion="27"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_28.cab" mversion="28"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_30.cab" mversion="30"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_31.cab" mversion="31"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b7_32.cab" mversion="32"/>
+  </condition>
+  <condition version_c="(=)3022">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b8_31.cab" mversion="31"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b8_32.cab" mversion="32"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b8_33.cab" mversion="33"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b8_34.cab" mversion="34"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b8_35.cab" mversion="35"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_5_r5_b8_36.cab" mversion="36"/>
+  </condition>
+  <condition version_c="(=)3029">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_37.cab" mversion="37"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_38.cab" mversion="38"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_39.cab" mversion="39"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_41.cab" mversion="41"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_42.cab" mversion="42"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_43.cab" mversion="43"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_44.cab" mversion="44"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_45.cab" mversion="45"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_6_r6_rc_54.cab" mversion="54"/>
+  </condition>
+  <condition version_c="(=)3032">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_7_b5_46.cab" mversion="46"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_7_b5_47.cab" mversion="47"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_7_b5_52.cab" mversion="52"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_7_b5_53.cab" mversion="53"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_7_b5_54.cab" mversion="54"/>
+  </condition>
+  <condition version_c="(=)3036">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r8_b5_55.cab" mversion="55"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r8_b5_56.cab" mversion="56"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r8_b5_57.cab" mversion="57"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r8_b5_59.cab" mversion="59"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r8_b5_60.cab" mversion="60"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r8_b5_63.cab" mversion="63"/>
+  </condition>
+  <condition version_c="(+=)3005">
+    <condition version_c="(-=)3037">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/disablevmm_avg.cab" mversion="62"/>
+    </condition>
+    <condition version_c="(-=)3040">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/msqualitycompat_avg.cab" mversion="68"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/msqualitycompatplus1_avg.cab" mversion="71"/>
+    </condition>
+    <condition version_c="(-=)3100">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/overseer-avg-trigger-3.cab" mversion="78"/>
+    </condition>
+  </condition>
+  <condition version_c="(=)3040">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_66.cab" mversion="66"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_72.cab" mversion="72"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_73.cab" mversion="73"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_74.cab" mversion="74"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_75.cab" mversion="75"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_77.cab" mversion="77"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_17_r9_81.cab" mversion="81"/>
+  </condition>
+  <condition version_c="(=)3044">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r1_81.cab" mversion="81"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r1_93.cab" mversion="93"/>
+  </condition>
+  <condition version_c="(=)3046">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_83.cab" mversion="83"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_84.cab" mversion="84"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_85.cab" mversion="85"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_87.cab" mversion="87"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_88.cab" mversion="88"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_90.cab" mversion="90"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r2_96.cab" mversion="96"/>
+  </condition>
+  <condition version_c="(=)3051">
+    <condition os_c="(+=)10.0">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r3_94.cab" mversion="94"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r3_88.cab" mversion="88"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r3_89.cab" mversion="89"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r3_91.cab" mversion="91"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r3_92.cab" mversion="92"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r3_95.cab" mversion="95"/>
+  </condition>
+  <condition version_c="(=)3056">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_97.cab" mversion="97"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_357.cab" mversion="357"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_358.cab" mversion="358"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_359.cab" mversion="359"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_360.cab" mversion="360"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_362.cab" mversion="362"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r4_395.cab" mversion="395"/>
+  </condition>
+  <condition version_c="(=)3059">
+    <condition operation_c="default, upgrade">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_367.cab" mversion="367"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_368.cab" mversion="368"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_369.cab" mversion="369"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_370.cab" mversion="370"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_372.cab" mversion="372"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_376.cab" mversion="376"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_361.cab" mversion="361"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_362.cab" mversion="362"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r5_364.cab" mversion="364"/>
+  </condition>
+  <condition version_c="(=)3066">
+    <condition os_c="(+)6.0">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_383.cab" mversion="383"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_375.cab" mversion="375"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_378.cab" mversion="378"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_379.cab" mversion="379"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_381.cab" mversion="381"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_384.cab" mversion="384"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_389.cab" mversion="389"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_390.cab" mversion="390"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_393.cab" mversion="393"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r6_398.cab" mversion="398"/>
+  </condition>
+  <condition os_c="(+=)6.0">
+    <condition version_c="(+=)3000">
+      <condition version_c="(-=)3067">
+        <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/overseer_392_avg.cab" mversion="392"/>
+      </condition>
+    </condition>
+  </condition>
+  <condition version_c="(=)3069">
+    <condition os_c="(-=)6.0">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r7_396.cab" mversion="396"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r7_401.cab" mversion="401"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r7_453.cab" mversion="453"/>
+  </condition>
+  <condition version_c="(=)3071">
+    <!--update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_407.cab" mversion="407" info_url="http://www.avg.com"/-->
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_408.cab" mversion="408"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_409.cab" mversion="409"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_410.cab" mversion="410"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_411.cab" mversion="411"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_412.cab" mversion="412"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_419.cab" mversion="419"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_421.cab" mversion="421"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_438.cab" mversion="438"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_452.cab" mversion="452"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_458.cab" mversion="458"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_496.cab" mversion="496"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_18_r8_536.cab" mversion="536"/>
+  </condition>
+  <condition version_c="(=)3075">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_415.cab" mversion="415"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_416.cab" mversion="416"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_417.cab" mversion="417"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_418.cab" mversion="418"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_420.cab" mversion="420"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_421.cab" mversion="421"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_424.cab" mversion="424"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r1_427.cab" mversion="427"/>
+  </condition>
+  <condition version_c="(=)3079">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_427.cab" mversion="427"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_428.cab" mversion="428"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_429.cab" mversion="429"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_430.cab" mversion="430"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_431.cab" mversion="431"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_436.cab" mversion="436"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r2_437.cab" mversion="437"/>
+  </condition>
+  <condition version_c="(+=)3041">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_disablevmm_01.cab" mversion="439"/>
+  </condition>
+  <condition version_c="(=)3084">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_440.cab" mversion="440"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_441.cab" mversion="441"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_442.cab" mversion="442"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_445.cab" mversion="445"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_450.cab" mversion="450"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_459.cab" mversion="459"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r3_532.cab" mversion="532"/>
+  </condition>
+  <condition version_c="(=)3089">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_451.cab" mversion="451"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_454.cab" mversion="454"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_455.cab" mversion="455"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_456.cab" mversion="456"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_460.cab" mversion="460"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_491.cab" mversion="491"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r4_532.cab" mversion="532"/>
+  </condition>
+  <condition version_c="(=)3093">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_493.cab" mversion="493"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_495.cab" mversion="495"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_497.cab" mversion="497"/>
+    <condition ini_c="{app}setup\servers.def|servers|RepoID|betaavg|0">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_499.cab" mversion="499"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_500.cab" mversion="500"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_501.cab" mversion="501"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_502.cab" mversion="502"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_503.cab" mversion="503"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_505.cab" mversion="505"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_506.cab" mversion="506"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_507.cab" mversion="507"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_510.cab" mversion="510"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r5_514.cab" mversion="514"/>
+  </condition>
+  <condition version_c="(=)3098">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_508.cab" mversion="508"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_511.cab" mversion="511"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_513.cab" mversion="513"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_514.cab" mversion="514"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_515.cab" mversion="515"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_517.cab" mversion="517"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r6_520.cab" mversion="520"/>
+  </condition>
+  <condition version_c="(=)3103">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_520.cab" mversion="520"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_521.cab" mversion="521"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_522.cab" mversion="522"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_523.cab" mversion="523"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_524.cab" mversion="524"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_526.cab" mversion="526"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_552.cab" mversion="552"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r7_556.cab" mversion="556"/>
+  </condition>
+  <condition version_c="(=)3108">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_535.cab" mversion="535"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_538.cab" mversion="538"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_539.cab" mversion="539"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_540.cab" mversion="540"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_541.cab" mversion="541"/>
+    <condition os_c="(+=)10.0">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_544.cab" mversion="544"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_545.cab" mversion="545"/>
+    <!--update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_546.cab" mversion="546"/-->
+    <!--update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_547.cab" mversion="547"/-->
+    <!--update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_548.cab" mversion="548"/-->
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_549.cab" mversion="549"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_19_r8_552.cab" mversion="552"/>
+  </condition>
+  <condition version_c="(=)3112">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r1_558.cab" mversion="558"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r1_559.cab" mversion="559"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r1_562.cab" mversion="562"/>
+    <condition os_c="srv">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r1_569.cab" mversion="569"/>
+    </condition>
+  </condition>
+  <condition version_c="(=)3116">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_563.cab" mversion="563"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_564.cab" mversion="564"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_565.cab" mversion="565"/>
+    <condition ini_c="{app}setup\setup.ini|parts.program.groups|ais_cmp_fw|1|0">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_566.cab" mversion="566"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_567.cab" mversion="567"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_568.cab" mversion="568"/>
+    <condition os_c="srv">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_569.cab" mversion="569"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_570.cab" mversion="570"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_571.cab" mversion="571"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r2_572.cab" mversion="572"/>
+  </condition>
+  <condition version_c="(=)3120">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r3_574.cab" mversion="574"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r3_575.cab" mversion="575"/>
+  </condition>
+  <condition version_c="(=)3125">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_576.cab" mversion="576"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_577.cab" mversion="577"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_578.cab" mversion="578"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_579.cab" mversion="579"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_580.cab" mversion="580"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_581.cab" mversion="581"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_582.cab" mversion="582"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r4_583.cab" mversion="583"/>
+  </condition>
+  <condition version_c="(=)3130">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r5_584.cab" mversion="584"/>
+    <condition regkey_c_1="!(32)HKLM\SOFTWARE\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}" regkey_c_2="!(64)HKLM\SOFTWARE\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}">
+      <condition operation_c="default" ini_c_1="{app}setup\offers.ini|GoogleChrome|ProductOffered|1|0" ini_c_2="{app}setup\offers.ini|GoogleChrome|OfferResult|0|0|!" ini_c_3="{app}setup\offers.ini|GoogleChrome|ProductInstallTried|0|0">
+        <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_chromefix.cab" mversion="585" outoforder="1"/>
+      </condition>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r5_586.cab" mversion="586"/>
+  </condition>
+  <condition version_c="(=)3135">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r6_587.cab" mversion="587"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r6_588.cab" mversion="588"/>
+  </condition>
+  <condition version_c="(=)3140">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_590.cab" mversion="590"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_591.cab" mversion="591"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_592.cab" mversion="592"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_593.cab" mversion="593"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_594.cab" mversion="594"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_595.cab" mversion="595"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_596.cab" mversion="596"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_597.cab" mversion="597"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_598.cab" mversion="598"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_599.cab" mversion="599"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_600.cab" mversion="600"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_601.cab" mversion="601"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r7_613.cab" mversion="613"/>
+  </condition>
+  <condition version_c="(=)3147">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r8_602.cab" mversion="602"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r8_604.cab" mversion="604"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r8_613.cab" mversion="613"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r8_631.cab" mversion="631"/>
+  </condition>
+  <condition os_c="(+=)6.1" prod_c="2,3,6,7,12,16,17,18,19,22" operation_c="default">
+    <condition remote_c="http://yesno.ff.avast.com/v0/resolve/emupdates/wlkfix/2-0-{midex}">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_606.cab" mversion="606" outoforder="1"/>
+    </condition>
+  </condition>
+  <condition version_c="(=)3152">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_607.cab" mversion="607"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_609.cab" mversion="609"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_611.cab" mversion="611"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_615.cab" mversion="615"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_617.cab" mversion="617"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_619.cab" mversion="619"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_625.cab" mversion="625"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r9_632.cab" mversion="632"/>
+  </condition>
+  <condition version_c="(+=)3152">
+    <condition version_c="(-=)3153">
+      <condition rversion_c="(=)20.10.5774.0|{app}setup\instup.exe" os_c="32" operation_c="default">
+        <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/logrotate_fix_avg_616.cab" mversion="616"/>
+      </condition>
+    </condition>
+  </condition>
+  <condition os_c="(+=)6.1" regkey_c="(32)HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AVG Driver Updater" operation_c="default">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_drv_update_614.cab" mversion="614" outoforder="1"/>
+  </condition>
+  <condition version_c="(=)3157">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_618.cab" mversion="618"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_619.cab" mversion="619"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_620.cab" mversion="620"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_621.cab" mversion="621"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_622.cab" mversion="622"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_623.cab" mversion="623"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_624.cab" mversion="624"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_625.cab" mversion="625"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_626.cab" mversion="626"/>
+    <condition operation_c="default">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_opm_fix_1.cab" mversion="628"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_20_r10_629.cab" mversion="629"/>
+  </condition>
+  <condition version_c="(=)3164">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_630.cab" mversion="630"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_635.cab" mversion="635"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_636.cab" mversion="636"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_639.cab" mversion="639"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_641.cab" mversion="641"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_645.cab" mversion="645"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_646.cab" mversion="646"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r1_647.cab" mversion="647"/>
+  </condition>
+  <condition version_c="(=)3169">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_644.cab" mversion="644"/>
+  </condition>
+  <condition version_c="(=)3170">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_648.cab" mversion="648"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_650.cab" mversion="650"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_651.cab" mversion="651"/>
+    <condition operator_c="or" os_c="32" rversion_c="(+=)6.1.7601.22948|{sys}wintrust.dll">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_662.cab" mversion="662"/>
+    </condition>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_673.xml" mversion="673"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r2_681.xml" mversion="681"/>
+  </condition>
+  <condition version_c="(=)3174">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_test_burger.xml" mversion="652"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_655.cab" mversion="655"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_656.cab" mversion="656"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_657.cab" mversion="657"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_660.cab" mversion="660"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_661.cab" mversion="661"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_663.cab" mversion="663"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_664.cab" mversion="664"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_665.cab" mversion="665"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r3_671.xml" mversion="671"/>
+  </condition>
+  <condition version_c="(=)3179">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r4_667.xml" mversion="667"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r4_668.xml" mversion="668"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r4_669.xml" mversion="669"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r4_670.xml" mversion="670"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r4_672.xml" mversion="672"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r4_701.xml" mversion="701"/>
+    <condition prod_c="avg_business">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_servers_def_fix.cab" mversion="718"/>
+    </condition>
+  </condition>
+  <condition version_c="(=)3185">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r5_675.xml" mversion="675"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r5_677.xml" mversion="677"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r5_678.xml" mversion="678"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r5_679.xml" mversion="679"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r5_680.xml" mversion="680"/>
+  </condition>
+  <condition version_c="(=)3189">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r6_682.xml" mversion="682"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r6_683.xml" mversion="683"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r6_684.xml" mversion="684"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r6_690.xml" mversion="690"/>
+  </condition>
+  <condition version_c="(=)3196">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r7_685.xml" mversion="685"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r7_686.xml" mversion="686"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r7_688.xml" mversion="688"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r7_689.xml" mversion="689"/>
+  </condition>
+  <condition version_c="(=)3202">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r8_692.xml" mversion="692"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r8_693.xml" mversion="693"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r8_695.xml" mversion="695"/>
+  </condition>
+  <condition version_c="(=)3208">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r9_698.xml" mversion="698"/>
+  </condition>
+  <condition version_c="(=)3209">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r9_699.xml" mversion="699"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r9_703.xml" mversion="703"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r9_704.xml" mversion="704"/>
+  </condition>
+  <condition version_c="(=)3213">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_21_r10_706.xml" mversion="706"/>
+  </condition>
+  <condition version_c="(=)3219">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_707.xml" mversion="707"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_708.xml" mversion="708"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_709.xml" mversion="709"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_710.xml" mversion="710"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_712.xml" mversion="712"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_715.xml" mversion="715"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_arpot_block_update.xml" mversion="721"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r1_733.xml" mversion="733"/>
+  </condition>
+  <condition version_c="(=)3223">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r2_711.xml" mversion="711"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r2_713.xml" mversion="713"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r2_714.xml" mversion="714"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r2_716.xml" mversion="716"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r2_717.xml" mversion="717"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_arpot_block_update.xml" mversion="721"/>
+  </condition>
+  <condition version_c="(=)3228">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r3_719.xml" mversion="719"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r3_720.xml" mversion="720"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_arpot_block_update.xml" mversion="721"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_vboxsup_disable_update.xml" mversion="725"/>
+  </condition>
+  <condition version_c="(=)3231">
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_arpot_block_update.xml" mversion="721"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r4_722.xml" mversion="722"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r4_723.xml" mversion="723"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r4_724.xml" mversion="724"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_vboxsup_disable_update.xml" mversion="725"/>
+    <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r4_729.xml" mversion="729"/>
+  </condition>
+  <condition rversion_c="(+=)22.5.7263">
+    <condition build_c="(=)22.5.7263">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r5_726.xml" mversion="726"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r5_728.xml" mversion="728"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r5_730.xml" mversion="730"/>
+    </condition>
+    <condition build_c="(=)22.6.7355">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r6_731.xml" mversion="731"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r6_732.xml" mversion="732"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r6_740.xml" mversion="740"/>
+    </condition>
+    <condition build_c="(=)22.7.7403">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_735.xml" mversion="735"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_736.xml" mversion="736"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_737.xml" mversion="737"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_738.xml" mversion="738"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_741.xml" mversion="741"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_742.xml" mversion="742"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_744.xml" mversion="744"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_745.xml" mversion="745"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_746.xml" mversion="746"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r7_747.xml" mversion="747"/>
+    </condition>
+    <condition build_c="(=)22.8.7435">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r8_739.xml" mversion="739"/>
+    </condition>
+    <condition build_c="(=)22.8.7500">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r8_748.xml" mversion="748"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r8_749.xml" mversion="749"/>
+    </condition>
+    <condition build_c="(=)22.9.7554">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r9_750.xml" mversion="750"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r9_751.xml" mversion="751"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r9_753.xml" mversion="753"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r9_754.xml" mversion="754"/>
+    </condition>
+    <condition build_c="(=)22.10.7633">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r10_752.xml" mversion="752"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r10_755.xml" mversion="755"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r10_757.xml" mversion="757"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r10_763.xml" mversion="763"/>
+    </condition>
+    <condition build_c="(=)22.11.7716">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r11_756.xml" mversion="756"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r11_758.xml" mversion="758"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r11_759.xml" mversion="759"/>
+    </condition>
+    <condition build_c="(=)22.12.7758">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_764.xml" mversion="764"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_765.xml" mversion="765"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_766.xml" mversion="766"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_767.xml" mversion="767"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_768.xml" mversion="768"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_769.xml" mversion="769"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_framework_presence_probe.xml" mversion="770"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_22_r12_771.xml" mversion="771"/>
+    </condition>
+    <condition build_c="(=)23.1.7883">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r1_772.xml" mversion="772"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r1_773.xml" mversion="773"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r1_774.xml" mversion="774"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r1_775.xml" mversion="775"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r1_778.xml" mversion="778"/>
+    </condition>
+    <condition build_c="(=)23.2.7961">
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r2_776.xml" mversion="776"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r2_777.xml" mversion="777"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r2_779.xml" mversion="779"/>
+      <update url="http://emupdate.bav.avcdn.net/files/bav/emupdate/avg_23_r2_780.xml" mversion="780"/>
+    </condition>
+  </condition>
+</aswmicroupdates>
+
+ASWSig2A7DEBD88066C857B9143B948286358D69C69161F3FCF7F0EDF83EEB465AC7350D01AC9AB0FDCCA0B71701EAB6B8CF11C72EFBEA07F461CDCF0230D7C7A54E20B4ASWSig2A

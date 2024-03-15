@@ -1,0 +1,236 @@
+#include <ncurses.h>
+
+int main()
+{
+    initscr();              // Initialize ncurses
+    cbreak();               // Disable line buffering
+    noecho();               // Don't echo characters to screen
+    curs_set(0);            // Hide cursor
+
+    int x, y;
+    getmaxyx(W, y, x); // Get size of the screen
+    getmaxyx(W, rowLimit, colLimit); // Get size of the screen
+
+
+    int brick_width = 5;
+    int brick_height = 2;
+
+    int row_gap = 1;
+    int col_gap = 1;
+
+    int start_x = (x - (brick_width * 5 + col_gap * 4)) / 2;
+    int start_y = (y - (brick_height * 3 + row_gap * 2)) / 2;
+
+    for (int i = 0; i < 3; i++) 
+    {
+        for (int j = 0; j < 5; j++) 
+        {
+            int brick_x = start_x + j * (brick_width + col_gap);
+            int brick_y = start_y + i * (brick_height + row_gap);
+
+            for (int k = 0; k < brick_height; k++) 
+            {
+                mvprintw(brick_y + k, brick_x, "#####");
+            }
+        }
+    }
+
+    refresh();              // Update screen
+    getch();                // Wait for user input
+    endwin();               // End ncurses
+
+    return 0;
+}
+
+
+
+
+#include <ncurses.h>
+
+int main() {
+  // initialize ncurses
+  initscr();
+  start_color();
+  init_pair(1, COLOR_YELLOW, COLOR_BLACK);
+
+  // define the coordinates and size of the blocks
+  int block_x = 10;
+  int block_y = 5;
+  int block_width = 10;
+  int block_height = 5;
+
+  // draw 5 yellow rectangle blocks
+  for (int i = 0; i < 5; i++) {
+    // set color
+    attron(COLOR_PAIR(1));
+
+    // draw rectangle
+    for (int j = 0; j < block_height; j++) 
+    {
+        for (int k = 0; k < block_width; k++) 
+        {
+            mvprintw(block_y+j, block_x+k+(i*block_width), " ");
+        }
+    }
+
+    // unset color
+    attroff(COLOR_PAIR(1));
+  }
+
+  // refresh screen and wait for user input
+  refresh();
+  getch();
+
+  // clean up and exit
+  endwin();
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <ncurses.h>
+
+int main() {
+  // Initialize ncurses
+  initscr();
+
+  // Set up colors
+  start_color();
+  init_pair(1, COLOR_YELLOW, COLOR_BLACK);
+
+  // Calculate starting position for the bricks
+  int max_y, max_x;
+  getmaxyx(stdscr, max_y, max_x);
+  getmaxyx(W, rowLimit, colLimit);
+
+  int start_y = (max_y - 3 * 2) / 2; // 3 rows with 1 line of space in between
+  int start_x = (max_x - 5 * 2) / 2; // 5 bricks with 1 space in between
+
+  // Draw the bricks
+  for (int row = 0; row < 3; row++) {
+    for (int col = 0; col < 5; col++) {
+      // Calculate position of current brick
+      int x = start_x + col * 2;
+      int y = start_y + row * 2;
+
+      // Draw the brick
+      attron(COLOR_PAIR(1)); // Set color pair
+      mvaddch(y, x, 219); // Draw brick
+      attroff(COLOR_PAIR(1)); // Reset color pair
+    }
+  }
+
+  // End ncurses
+  endwin();
+
+  return 0;
+}
+
+
+
+
+
+#include <ncurses.h>
+
+int main() {
+  // Initialize ncurses
+  initscr();
+  
+  // Set up colors
+  start_color();
+  init_pair(1, COLOR_YELLOW, COLOR_BLACK);
+  
+  // Get screen dimensions
+  int screen_width, screen_height;
+  getmaxyx(stdscr, screen_height, screen_width);
+  
+  // Calculate starting position of bricks
+  int brick_width = 4;
+  int brick_height = 2;
+  int brick_spacing = 1;
+  int brick_x = (screen_width - (brick_width * 5 + brick_spacing * 4)) / 2;
+  int brick_y = (screen_height - (brick_height * 3 + brick_spacing * 2)) / 2;
+  
+  // Draw the bricks
+  for (int row = 0; row < 3; row++) 
+  {
+      for (int col = 0; col < 5; col++) 
+      {
+      // Set the color
+      attron(COLOR_PAIR(1));
+      // Draw the brick
+      for (int y = 0; y < brick_height; y++) 
+      {
+           for (int x = 0; x < brick_width; x++) 
+           {
+                mvprintw(brick_y + row * (brick_height + brick_spacing) + y, brick_x + col * (brick_width + brick_spacing) + x, " ");
+        }
+      }
+      // Reset the color
+      attroff(COLOR_PAIR(1));
+    }
+  }
+  
+  // Refresh the screen and wait for key press
+  refresh();
+  getch();
+  
+  // Clean up
+  endwin();
+  return 0;
+}
+
+
+

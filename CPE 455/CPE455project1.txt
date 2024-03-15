@@ -1,0 +1,156 @@
+#include <ncurses.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+typedef struct game_item {
+    char type;
+    int row, col;
+} game_item_t;
+
+#define MAX_GAME_ITEMS 100
+
+int read_game_items(char *filename, game_item_t *game_items, int max_items) {
+    FILE *fp;
+    char line[80], type;
+    int row, col, i = 0;
+    
+    fp = fopen(filename, "r");
+    if (fp == NULL) {
+        return 0;
+    }
+    
+    while (fgets(line, sizeof(line), fp) != NULL && i < max_items) {
+        if (sscanf(line, "%c %d %d", &type, &row, &col) != 3) {
+            continue;
+        }
+        game_items[i].type = type;
+        game_items[i].row = row;
+        game_items[i].col = col;
+        i++;
+    }
+    
+    fclose(fp);
+    
+    return i;
+}
+
+#define GAME_HEIGHT 25
+#define GAME_WIDTH 80
+
+int main() {
+    game_item_t game_items[MAX_GAME_ITEMS];
+    int num_items;
+    
+    num_items = read_game_items("map.txt", game_items, MAX_GAME_ITEMS);
+    
+    initscr();
+    cbreak();
+    noecho();
+    keypad(stdscr, TRUE);
+    curs_set(0);
+    start_color();
+    
+    // Define colors for game items
+    init_pair(1, COLOR_BLUE, COLOR_BLACK);
+    init_pair(2, COLOR_GREEN, COLOR_BLACK);
+    init_pair(3, COLOR_RED, COLOR_BLACK);
+    init_pair(4, COLOR_YELLOW, COLOR_BLACK);
+    
+    // Create game window
+    WINDOW *game_win;
+    game_win = newwin(GAME_HEIGHT, GAME_WIDTH, 0, 0);
+    box(game_win, 0, 0);
+    wrefresh(game_win);
+
+    // Draw game items onto window
+    for (int i = 0; i < num_items; i++) {
+        switch (game_items[i].type) {
+            case 'B':
+                wattron(game_win, COLOR_PAIR(1));
+                mvwprintw(game_win, game_items[i].row, game_items[i].col, "B");
+                wattroff(game_win, COLOR_PAIR(1));
+                break;
+            case 'G':
+                wattron(game_win, COLOR_PAIR(2));
+                mvwprintw(game_win, game_items[i].row, game_items[i].col, "G");
+                wattroff(game_win, COLOR_PAIR(2));
+                break;
+            case 'X':
+                wattron(game_win, COLOR_PAIR(3));
+                mvwprintw(game_win, game_items[i].row, game_items[i].col, "X");
+                wattroff(game_win, COLOR_PAIR(3));
+                break;
+            default:
+                break;
+        }
+    }
+    
+   
+// Define player and ball positions
+int player_row = game_items[0].row;
+int player_col = game_items[0].col;
+int ball_row = game_items[1].row;
+int ball_col = game_items[1].col;
+
+// Define ball velocity
+int ball_row_velocity = 1;
+int ball_col_velocity = 1;
+
+int ch;
+while ((ch = getch()) != KEY_F(1)) {
+    // Move player based on user input
+    switch (ch) {
+        case KEY_LEFT:
+            if (player_col > 1) {
+                player_col--;
+            }
+            break;
+        case KEY_RIGHT:
+            if (player_col < GAME_WIDTH - 2) {
+                player_col++;
+            }
+            break;
+        default:
+            break;
+    }
+    
+    // Move ball
+    ball_row += ball_row_velocity;
+    ball_col += ball_col_velocity;
+    
+    // Check for collisions with walls
+    if (ball_row <= 1) {
+        ball_row_velocity = 1;
+    } else if (ball_row >= GAME_HEIGHT - 2) {
+        ball_row_velocity = -1;
+    }
+    
+    if (ball_col <= 1) {
+        ball_col_velocity = 1;
+    } else if (ball_col >= GAME_WIDTH - 2) {
+        ball_col_velocity = -1;
+    }
+    
+    // Check for collisions with player
+    if (ball_row == player_row && ball_col >= player_col - 1 && ball_col <= player_col + 1) {
+        ball_row_velocity = -1;
+    }
+    
+    // Update window with new positions
+    mvwprintw(game_win, player_row, player_col-1, "BBB");
+    mvwprintw(game_win, ball_row, ball_col, "O");
+    wrefresh(game_win);
+    
+    // Sleep for a short time to control the game speed
+    usleep(50000);
+}
+
+	// Refresh window
+        wrefresh(game_win);
+    }
+    
+    // End ncurses mode
+    endwin();
+
+
