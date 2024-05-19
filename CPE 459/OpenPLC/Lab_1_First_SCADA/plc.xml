@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://www.plcopen.org/xml/tc6_0201" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ns1="http://www.plcopen.org/xml/tc6_0201">
+  <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2024-01-28T21:46:12"/>
+  <contentHeader name="Unnamed" modificationDateTime="2024-01-28T22:24:48">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="10" y="10"/>
+      </fbd>
+      <ld>
+        <scaling x="10" y="10"/>
+      </ld>
+      <sfc>
+        <scaling x="10" y="10"/>
+      </sfc>
+    </coordinateInfo>
+  </contentHeader>
+  <types>
+    <dataTypes/>
+    <pous>
+      <pou name="Lab1" pouType="program">
+        <interface>
+          <localVars>
+            <variable name="PB1" address="%IX100.0">
+              <type>
+                <BOOL/>
+              </type>
+            </variable>
+            <variable name="PB2" address="%IX100.1">
+              <type>
+                <BOOL/>
+              </type>
+            </variable>
+            <variable name="LED" address="%QX100.0">
+              <type>
+                <BOOL/>
+              </type>
+            </variable>
+          </localVars>
+        </interface>
+        <body>
+          <LD>
+            <contact localId="1" negated="false" width="60" height="40">
+              <position x="230" y="30"/>
+              <connectionPointIn>
+                <relPosition x="0" y="20"/>
+                <connection refLocalId="5">
+                  <position x="230" y="50"/>
+                  <position x="90" y="50"/>
+                </connection>
+              </connectionPointIn>
+              <connectionPointOut>
+                <relPosition x="60" y="20"/>
+              </connectionPointOut>
+              <variable>PB1</variable>
+            </contact>
+            <contact localId="2" negated="true" width="60" height="40">
+              <position x="460" y="30"/>
+              <connectionPointIn>
+                <relPosition x="0" y="20"/>
+                <connection refLocalId="1">
+                  <position x="460" y="50"/>
+                  <position x="290" y="50"/>
+                </connection>
+                <connection refLocalId="8">
+                  <position x="460" y="50"/>
+                  <position x="375" y="50"/>
+                  <position x="375" y="170"/>
+                  <position x="290" y="170"/>
+                </connection>
+              </connectionPointIn>
+              <connectionPointOut>
+                <relPosition x="60" y="20"/>
+              </connectionPointOut>
+              <variable>PB2</variable>
+            </contact>
+            <coil localId="4" negated="false" width="60" height="40">
+              <position x="640" y="30"/>
+              <connectionPointIn>
+                <relPosition x="0" y="20"/>
+                <connection refLocalId="2">
+                  <position x="640" y="50"/>
+                  <position x="520" y="50"/>
+                </connection>
+              </connectionPointIn>
+              <connectionPointOut>
+                <relPosition x="60" y="20"/>
+              </connectionPointOut>
+              <variable>LED</variable>
+            </coil>
+            <leftPowerRail localId="5" width="40" height="160">
+              <position x="50" y="30"/>
+              <connectionPointOut formalParameter="">
+                <relPosition x="40" y="20"/>
+              </connectionPointOut>
+              <connectionPointOut formalParameter="">
+                <relPosition x="40" y="140"/>
+              </connectionPointOut>
+            </leftPowerRail>
+            <rightPowerRail localId="6" width="20" height="80">
+              <position x="820" y="30"/>
+              <connectionPointIn>
+                <relPosition x="0" y="20"/>
+                <connection refLocalId="4">
+                  <position x="820" y="50"/>
+                  <position x="700" y="50"/>
+                </connection>
+              </connectionPointIn>
+            </rightPowerRail>
+            <comment localId="7" height="140" width="200">
+              <position x="640" y="140"/>
+              <content>
+                <xhtml:p><![CDATA[Dan Otieno.
+CPE 459- Spring '24.
+Assignment 1.
+01/27/24.]]></xhtml:p>
+              </content>
+            </comment>
+            <contact localId="8" negated="false" width="50" height="40">
+              <position x="240" y="150"/>
+              <connectionPointIn>
+                <relPosition x="0" y="20"/>
+                <connection refLocalId="5">
+                  <position x="240" y="170"/>
+                  <position x="90" y="170"/>
+                </connection>
+              </connectionPointIn>
+              <connectionPointOut>
+                <relPosition x="50" y="20"/>
+              </connectionPointOut>
+              <variable>LED</variable>
+            </contact>
+          </LD>
+        </body>
+      </pou>
+    </pous>
+  </types>
+  <instances>
+    <configurations>
+      <configuration name="Config0">
+        <resource name="Res0">
+          <task name="task0" priority="0" interval="T#20ms">
+            <pouInstance name="instance0" typeName="Lab1"/>
+          </task>
+        </resource>
+      </configuration>
+    </configurations>
+  </instances>
+</project>
